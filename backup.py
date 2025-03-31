@@ -5,11 +5,10 @@ import shutil
 import logging
 import subprocess
 from datetime import datetime
-from pathlib import Path
 from cryptography.fernet import Fernet
 from typing import List, Optional
 
-BACKUP_DIR = os.getenv('BACKUP_DIR', '/home/royal_green/Desktop/backup')
+BACKUP_DIR = os.getenv('BACKUP_DIR', '/home/royal_green')
 BACKUP_DEST = os.getenv('BACKUP_DEST', '/var/backups')
 RCLONE_REMOTE = os.getenv('RCLONE_REMOTE', 'gdrive:backups')
 MAX_BACKUPS = 5
