@@ -30,7 +30,7 @@ Este script Python realiza backups automatizados com as seguintes funcionalidade
 
 O script pode ser configurado através de variáveis de ambiente:
 
-- `BACKUP_DIR`: Diretório a ser backup (padrão: /home/royal_green/Desktop/backup)
+- `BACKUP_DIR`: Diretório a ser backup (padrão: /home/royal_green/Desktop)
 - `BACKUP_DEST`: Diretório de destino dos backups (padrão: /var/backups)
 - `RCLONE_REMOTE`: Nome do remote rclone configurado (padrão: gdrive:backups)
 
